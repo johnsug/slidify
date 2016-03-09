@@ -1,0 +1,163 @@
+---
+title       : Machine Learning
+subtitle    : March 9, 2016
+author      : John Sugden
+job         : ...
+framework   : revealjs        ## {io2012, html5slides, shower, dzslides, revealjs...}
+revealjs    : {theme: sky}    ## {sky, beige, simple, serif, night, moon, solarized, default}
+highlighter : highlight.js    ## {highlight.js, prettify, highlight}
+widgets     : []              ## {mathjax, quiz, bootstrap}
+mode        : selfcontained   ## {standalone, draft, selfcontained}
+## transition {cube, page, concave, zoom, linear, fade, none, default}
+## ds states {blackout, soothe, alert, whiteout}
+--- 
+
+## Machine Learning
+
+#### John Sugden
+#### March 9, 2016
+
+![https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer](ML.png)
+
+---
+
+## My Background
+
+* Data Scientist
+* B.S. Economics
+* M.S. Finance
+* Associate of the Society of Actuaries
+
+---
+
+![](dilbert.gif)
+
+http://dilbert.com/strip/2013-02-02
+
+---
+
+## What is Machine Learning?
+
+> Machine learning is a **subfield of computer science** that evolved from the study of pattern recognition and computational learning theory in artificial intelligence. In 1959, Arthur Samuel defined machine learning as a "Field of study that gives computers the ability to learn without being explicitly programmed". **Machine learning explores the study and construction of algorithms that can learn from and make predictions on data.**
+
+https://en.wikipedia.org/wiki/Machine_learning
+
+---
+
+## Types of Learning
+
+![https://gradeslam.org/blog/4-reasons-to-learn-new-languages-early](learn.jpg)
+
+![http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/](Supervised-Learning-Algorithms.png) ![http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/](Unsupervised-Learning-Algorithms.png)
+
+--- &vertical
+
+## Common Machine Learning Algorithms
+
+![https://cwkoopman.wordpress.com/2015/09/29/the-algorithm-the-watchtower/](algorithms.jpg)
+
+***
+
+## Regression
+
+![https://en.wikipedia.org/wiki/Regression_analysis](linear-regression.png)
+
+* Ridge Regression
+* LASSO
+
+***
+
+## Multivariate Adaptive Regression Splines (MARS)
+
+![https://www.casact.org/education/specsem/f2007/handouts/Guszcza.pdf](MARS.png)
+
+https://www.casact.org/education/specsem/f2007/handouts/Guszcza.pdf
+
+***
+
+## Decision Trees
+
+![http://jmvidal.cse.sc.edu/talks/decisiontrees/allslides.html](dt.png)
+
+* C4.5
+* Decision Stump
+* Random Forest
+
+***
+
+## Artificial Neural Networks
+
+![https://www.casact.org/education/specsem/f2007/handouts/Guszcza.pdf](nnet1.png)
+
+https://www.casact.org/education/specsem/f2007/handouts/Guszcza.pdf
+
+***
+
+## ANN -- Generalized Logistic Regression
+
+![https://www.casact.org/education/specsem/f2007/handouts/Guszcza.pdf](nnet2.png)
+
+https://www.casact.org/education/specsem/f2007/handouts/Guszcza.pdf
+
+***
+
+## "Deep Learning"
+
+![http://cs231n.github.io/neural-networks-1/](nnet.jpeg)
+
+***
+
+## Support Vector Machines
+
+![https://de.wikipedia.org/wiki/Support_Vector_Machine](svm.png)
+
+***
+
+## Association Rules
+
+![http://gerardnico.com/wiki/data_mining/association](arules.png)
+
+***
+
+## Clustering
+
+![http://stackoverflow.com/questions/20260434/test-significance-of-clusters-on-a-pca-plot](clusters.png)
+
+*** 
+
+## Dimensionality Reduction
+
+![http://hpc-asia.com/understanding-dimensionality-reduction-principal-component-analysis-and-singular-value-decomposition/](decompose.png)
+
+* Principal Component Analysis (PCA)
+
+***
+
+## Ensemble Methods
+
+![http://www.superherohype.com/news/170143-boomerang-plans-14-hour-captain-planet-marathon-on-earth-day](cap-planet.jpg)
+
+* Bagging
+  * Random Forest
+* Boosting
+* Stacking
+
+--- &vertical
+
+## Are Machines Good Learners?
+
+- http://i.imgur.com/iLQ5k4i.gifv
+- https://i.imgur.com/duhzty7.jpg
+- http://i.imgur.com/70I9euV.gifv
+- http://i.imgur.com/I1SLZcS.gifv
+
+---
+
+## R Packages
+
+* [caret](https://cran.r-project.org/web/packages/caret/caret.pdf) -- **C**lassification **a**nd **Re**gression **T**raining
+* [RWeka](https://cran.r-project.org/web/packages/RWeka/RWeka.pdf) -- to Weka machine learning tool
+* [arules](https://cran.r-project.org/web/packages/arules/arules.pdf) -- mining association rules and frequent itemsets
+* [nnet](https://cran.r-project.org/web/packages/nnet/nnet.pdf) -- popular neural net package
+* [gbm](https://cran.r-project.org/web/packages/gbm/gbm.pdf) - Generalized boosted models
+* [ROCR](https://cran.r-project.org/web/packages/ROCR/ROCR.pdf) -- for producing ROC plots
